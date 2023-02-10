@@ -31,7 +31,8 @@ public class Student extends Person{
     @Override
     public String toString(){ // overrides toString method and returns this special string
         return "Name: " + getName() + "\n"
-                + "Gpa: " + getGpa() + "\n";
+                + "Gpa: " + getGpa() + "\n"
+                  + "Age: " + getAge() + "\n";
     }
     
     @Override 
